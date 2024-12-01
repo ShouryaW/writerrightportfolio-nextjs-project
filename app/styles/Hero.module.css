@@ -1,0 +1,36 @@
+.hero {
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.content {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f9f871; /* Muted yellow for the name */
+  animation: fadeIn 2s ease-out forwards;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #e5e5e5; /* Light grey for contrast */
+  animation: fadeIn 2.5s ease-out forwards;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

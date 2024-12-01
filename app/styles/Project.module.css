@@ -1,0 +1,107 @@
+/* Overall Section Styling */
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #e5e5e5; /* Light grey text */
+}
+
+/* Try It Text Styling */
+.tryText {
+  font-size: 1.6rem; /* Larger font size for visibility */
+  margin-bottom: 2rem;
+  color: #4fa6d3; /* Light blue secondary color */
+  font-weight: bold; /* Ensure text is bold */
+}
+
+.tryText a {
+  color: inherit; /* Inherit the color from parent */
+  text-decoration: none; /* Remove default underline */
+}
+
+.tryText a:hover {
+  color: #6fc8f9; /* Brighter blue on hover */
+}
+
+.tryLink {
+  text-decoration: underline; /* Underline for HERE */
+  font-size: 1.7rem; /* Slightly larger size for emphasis */
+  font-weight: bold; /* Ensure HERE stands out */
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f9f871; /* Muted yellow for heading */
+  margin-bottom: 1rem;
+}
+
+/* Video Wrapper Styling */
+.videoWrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 90%; /* Larger width to make the video responsive */
+  max-width: 800px; /* Increased max-width */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.videoWrapper:hover {
+  transform: translateY(-5px);
+}
+
+.video {
+  width: 100%; /* Fill the container */
+  max-height: 500px; /* Allow for a larger height */
+  display: block;
+  border-radius: 10px;
+}
+
+/* Description Styling */
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #e5e5e5; /* Light grey for general text */
+  max-width: 600px;
+  margin: 1.5rem auto 0;
+}
+
+/* Highlighted Text Styling */
+.highlight {
+  color: #f9f871; /* Muted yellow for key terms */
+  font-weight: 700;
+}
+
+/* Screenshot Section */
+.screenshots {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.screenshotHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9f871; /* Muted yellow to match the theme */
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Larger gap between images */
+}
+
+.image {
+  width: 60%; /* Increase width to make the images larger */
+  max-width: 400px; /* Allow larger images for better visibility */
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+}

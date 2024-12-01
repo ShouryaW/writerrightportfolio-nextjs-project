@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f9f871;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.about a {
+  color: #f9f871;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about a:hover {
+  color: #ffd700;
+}
